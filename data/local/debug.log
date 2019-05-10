@@ -1,0 +1,8 @@
+2019-01-07 10:58:02.180738 CST | tensorboard data will be logged into:/home/mi/garage/data/local/
+2019-01-07 10:58:05.687598 CST | [experiment_2019_01_07_10_57_59_0001] Populating workers...
+2019-01-07 10:58:05.687744 CST | [experiment_2019_01_07_10_57_59_0001] Populated
+2019-01-07 10:58:06.625903 CST | [experiment_2019_01_07_10_57_59_0001] itr #0 | fitting baseline...
+2019-01-07 10:58:06.653295 CST | [experiment_2019_01_07_10_57_59_0001] itr #0 | fitted
+2019-01-07 10:58:06.997396 CST | [experiment_2019_01_07_10_57_59_0001] itr #0 | computing loss before
+2019-01-07 10:58:07.004184 CST | [experiment_2019_01_07_10_57_59_0001] itr #0 | performing update
+2019-01-07 10:58:07.004256 CST | [experiment_2019_01_07_10_57_59_0001] itr #0 | computing descent direction

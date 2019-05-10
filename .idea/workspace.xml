@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe6ee05f-8906-48b8-bdd2-3467b9ca5c1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Exp_paper/REINFORCE/example_swimmer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/CartPole/capg_cartpole.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/CartPole/sgd_cartpole.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/CartPole/sgd_nn_cartpole.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Hopper/capg_swimmer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Hopper/sgd_swimmer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Reacher/capg_swimmer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Reacher/sgd_nn_swimmer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Swimmer/capg/CAPG_Swimmerseed2707/capg2019-02-21 18:53:49_batchsize_5000_minibatchsize_500_subitr_10_lr_0.010000/events.out.tfevents.1550746431.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Swimmer/capg/CAPG_Swimmerseed2840/capg2019-02-21 18:53:49_batchsize_5000_minibatchsize_500_subitr_10_lr_0.010000/events.out.tfevents.1550747747.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Swimmer/capg/CAPG_Swimmerseed3874/capg2019-02-21 18:53:49_batchsize_5000_minibatchsize_500_subitr_10_lr_0.010000/events.out.tfevents.1550747058.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Swimmer/capg_paper/CAPG_Swimmerseed4783/capg2019-02-21 19:12:13_batchsize_5000_minibatchsize_500_subitr_10_lr_0.005000/events.out.tfevents.1550747536.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Swimmer/capg_swimmer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Swimmer/capg_swimmer_nf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Swimmer/capg_swimmer_v2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Swimmer/sgd_nn_swimmer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Swimmer/sgd_swimmer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Walker/capgCAPG_Walker2dseed0/capg2019-02-21 15:27:45_batchsize_5000_minibatchsize_500_subitr_10_lr_0.010000/events.out.tfevents.1550734067.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Walker/capgCAPG_Walker2dseed1/capg2019-02-21 15:27:45_batchsize_5000_minibatchsize_500_subitr_10_lr_0.010000/events.out.tfevents.1550735438.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Walker/capgCAPG_Walker2dseed2/capg2019-02-21 15:27:45_batchsize_5000_minibatchsize_500_subitr_10_lr_0.010000/events.out.tfevents.1550736900.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Walker/capgCAPG_Walker2dseed3/capg2019-02-21 15:27:45_batchsize_5000_minibatchsize_500_subitr_10_lr_0.010000/events.out.tfevents.1550738354.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Walker/capgCAPG_Walker2dseed4/capg2019-02-21 15:27:45_batchsize_5000_minibatchsize_500_subitr_10_lr_0.010000/events.out.tfevents.1550739818.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Walker/capg_correctedCAPG_Walker2dseed0/capg2019-02-21 15:29:12_batchsize_5000_minibatchsize_500_subitr_10_lr_0.010000/events.out.tfevents.1550734154.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Walker/capg_correctedCAPG_Walker2dseed0/capg2019-02-21 15:30:13_batchsize_50000_minibatchsize_5000_subitr_10_lr_0.010000/events.out.tfevents.1550734215.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Walker/capg_correctedCAPG_Walker2dseed1/capg2019-02-21 15:29:12_batchsize_5000_minibatchsize_500_subitr_10_lr_0.010000/events.out.tfevents.1550735572.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Walker/capg_correctedCAPG_Walker2dseed1/capg2019-02-21 15:30:13_batchsize_50000_minibatchsize_5000_subitr_10_lr_0.010000/events.out.tfevents.1550735600.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Walker/capg_correctedCAPG_Walker2dseed2/capg2019-02-21 15:29:12_batchsize_5000_minibatchsize_500_subitr_10_lr_0.010000/events.out.tfevents.1550737004.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Walker/capg_correctedCAPG_Walker2dseed2/capg2019-02-21 15:30:13_batchsize_50000_minibatchsize_5000_subitr_10_lr_0.010000/events.out.tfevents.1550737016.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Walker/capg_correctedCAPG_Walker2dseed3/capg2019-02-21 15:29:12_batchsize_5000_minibatchsize_500_subitr_10_lr_0.010000/events.out.tfevents.1550738433.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Walker/capg_correctedCAPG_Walker2dseed3/capg2019-02-21 15:30:13_batchsize_50000_minibatchsize_5000_subitr_10_lr_0.010000/events.out.tfevents.1550738423.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Walker/capg_correctedCAPG_Walker2dseed4/capg2019-02-21 15:29:12_batchsize_5000_minibatchsize_500_subitr_10_lr_0.010000/events.out.tfevents.1550739886.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Walker/capg_correctedCAPG_Walker2dseed4/capg2019-02-21 15:30:13_batchsize_50000_minibatchsize_5000_subitr_10_lr_0.010000/events.out.tfevents.1550739858.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Walker/capg_correctedCAPG_Walker2dseed6600/capg2019-02-21 18:40:02_batchsize_50000_minibatchsize_5000_subitr_10_lr_0.010000/events.out.tfevents.1550745604.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Walker/capg_correctedCAPG_Walker2dseed7969/capg2019-02-21 18:40:25_batchsize_5000_minibatchsize_500_subitr_10_lr_0.010000/events.out.tfevents.1550747876.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Walker/capg_correctedCAPG_Walker2dseed8264/capg2019-02-21 18:40:25_batchsize_5000_minibatchsize_500_subitr_10_lr_0.010000/events.out.tfevents.1550746588.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Walker/capg_correctedCAPG_Walker2dseed8891/capg2019-02-21 18:40:25_batchsize_5000_minibatchsize_500_subitr_10_lr_0.010000/events.out.tfevents.1550745627.mi-All-Series" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Walker/capg_walker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Walker/capg_walker_in_paper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAPG/Walker/sgd_nn_walker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/tf/capg_swimmer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/tf/catrpo_cartpole.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/theano/capg_halfcheetah.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exp_paper/HAPG_paper/example_swimmer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/theano/capg_humanoidstandup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/theano/vpg_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/theano/vpg_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/garage/contrib/rllab_hyperopt/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/garage/contrib/rllab_hyperopt/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/garage/contrib/rllab_hyperopt/example/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/garage/contrib/rllab_hyperopt/example/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/garage/contrib/rllab_hyperopt/example/score.py" beforeDir="false" afterPath="$PROJECT_DIR$/garage/contrib/rllab_hyperopt/example/score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/garage/misc/ext.py" beforeDir="false" afterPath="$PROJECT_DIR$/garage/misc/ext.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/garage/sampler/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/garage/sampler/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/garage/sampler/stateful_pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/garage/sampler/stateful_pool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/garage/tf/algos/capg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/garage/tf/algos/catrpo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/garage/tf/algos/npo.py" beforeDir="false" afterPath="$PROJECT_DIR$/garage/tf/algos/npo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/garage/tf/baselines/deterministic_mlp_baseline.py" beforeDir="false" afterPath="$PROJECT_DIR$/garage/tf/baselines/deterministic_mlp_baseline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/garage/tf/baselines/gaussian_mlp_baseline.py" beforeDir="false" afterPath="$PROJECT_DIR$/garage/tf/baselines/gaussian_mlp_baseline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/garage/tf/core/layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/garage/tf/core/layers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/garage/tf/optimizers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/garage/tf/optimizers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/garage/tf/optimizers/svrg_optimizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/garage/theano/algos/capg.py" beforeDir="false" afterPath="$PROJECT_DIR$/garage/theano/algos/capg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/garage/theano/algos/capg_corrected.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/garage/theano/algos/capg_corrected_reduced.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/garage/theano/algos/capg_nn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/tf/instrumented_npo.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures/tf/instrumented_npo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/garage/tf/baselines/test_baselines.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/garage/tf/baselines/test_baselines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/garage/tf/core/test_networks.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/garage/tf/core/test_networks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/garage/tf/misc/test_tensor_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/garage/tf/misc/test_tensor_utils.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1198324178">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="25" />
+          <entry key="py" value="245" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="25" />
+          <entry key="Python" value="245" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="sgd_cp_0.01">
+      <favorite_root url="file://$PROJECT_DIR$/CAPG_v2/2019-01-02 capg CartPolelr: 0.01 N_ 10 M_ 10 subitr_0" module="garage" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/CAPG_v2/2019-01-02 capg CartPolelr: 0.01 N_ 10 M_ 10 subitr_0/capg-CartPole-2019-01-02.pdf" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/CAPG_v2/2019-01-02 capg CartPolelr: 0.01 N_ 10 M_ 10 subitr_0/capg-record-CartPole-2019-01-02.csv" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/CAPG_v2/2019-01-02 capg CartPolelr: 0.01 N_ 10 M_ 10 subitr_0/capg-record-gradient-CartPole-2019-01-02.csv" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/CAPG_v2/2019-01-02 capg CartPolelr: 0.01 N_ 10 M_ 10 subitr_0/capg-convergence rate-CartPole-2019-01-02.pdf" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+    </favorites_list>
+    <favorites_list name="Unnamed">
+      <favorite_root url="file://$PROJECT_DIR$/CAPG_v4/gym_swimmer/capg_swimmer_corrected" module="garage" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/CAPG_v4/gym_swimmer/capg_swimmer_corrected/exp0" module="garage" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/CAPG_v4/gym_swimmer/capg_swimmer_corrected/exp0/events.out.tfevents.1546931099.mi-All-Series" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/CAPG_v4/gym_swimmer/capg_swimmer_corrected/exp0/events.out.tfevents.1546931343.mi-All-Series" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+      </favorite_root>
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>inputs</find>
+      <find>subsample</find>
+      <find>init_opt</find>
+      <find>self.normalize</find>
+      <find>gra</find>
+      <find>gradie</find>
+      <find>interval</find>
+      <find>plot</find>
+      <find>rllab</find>
+      <find>fst</find>
+      <find>seed</find>
+      <find>process_path</find>
+      <find>load</find>
+      <find>print</find>
+      <find>writer</find>
+      <find>baseline</find>
+      <find>decay</find>
+      <find>discounted</find>
+      <find>discount_ar</find>
+      <find>discount_array</find>
+      <find>reward</find>
+      <find>baseline.fit</find>
+      <find>j</find>
+      <find>AverageReturn</find>
+      <find>g_mix</find>
+      <find>diff</find>
+      <find>fit</find>
+      <find>3e5</find>
+      <find>v</find>
+      <find>write</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>surr</replace>
+      <replace>j</replace>
+      <replace>garage</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/garage</dir>
+      <dir>$PROJECT_DIR$/CAPG_v2</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/CAPG_dubeg</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/result/SGD_without-t/vpg_walker.py" />
+        <option value="$PROJECT_DIR$/result/SGD_without-t/vpg_humanoidstandup.py" />
+        <option value="$PROJECT_DIR$/result/SGD_without-t/vpg_reacher.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_gs/gs_humanoid.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_gs/gs_humanoidstandup.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_gs/gs_reacher.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_gs/gs_swimmer.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_gs/gs_walker.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_paper/papaer2_humanoid.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_paper/papaer2_humanoidstandup.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_paper/papaer2_reacher.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_paper/papaer2_swimmer.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_paper/papaer2_walker.py" />
+        <option value="$PROJECT_DIR$/result/SGD_with-t/vpg_humanoid.py" />
+        <option value="$PROJECT_DIR$/result/SGD_with-t/vpg_humanoidstandup.py" />
+        <option value="$PROJECT_DIR$/result/SGD_with-t/vpg_reacher.py" />
+        <option value="$PROJECT_DIR$/result/SGD_with-t/vpg_swimmer.py" />
+        <option value="$PROJECT_DIR$/result/SGD_with-t/vpg_walker.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_paper2/papaer2_humanoid.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_paper2/papaer2_humanoidstandup.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_paper2/papaer2_reacher.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_paper2/papaer2_swimmer.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_paper2/papaer2_walker.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_paper/papaer2_hopper_mlp.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_paper/papaer2_humanoid_mlp.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_paper/papaer2_humanoidstandup_mlp.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_paper/papaer2_reacher_mlp.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_paper/papaer2_swimmer_mlp.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_paper/papaer2_walker_mlp.py" />
+        <option value="$PROJECT_DIR$/result/SGD_without-t/vpg_humanoid_mlp.py" />
+        <option value="$PROJECT_DIR$/result/SGD_without-t/vpg_humanoidstandup_mlp.py" />
+        <option value="$PROJECT_DIR$/result/SGD_without-t/vpg_reacher_mlp.py" />
+        <option value="$PROJECT_DIR$/result/SGD_without-t/vpg_swimmer_mlp.py" />
+        <option value="$PROJECT_DIR$/result/SGD_without-t/vpg_walker_mlp.py" />
+        <option value="$PROJECT_DIR$/result/SGD_without-t/Walker/vpg_hopper.py" />
+        <option value="$PROJECT_DIR$/result/vpg_halfcheetah.py" />
+        <option value="$PROJECT_DIR$/result/SGD_without-t/vpg_halfcheetah.py" />
+        <option value="$PROJECT_DIR$/result/SGD_without-t/vpg_hopper.py" />
+        <option value="$PROJECT_DIR$/result/SGD_without-t/vpg_hop.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_paper/papaer2_halfcheetah.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_paper/papaer2_halfcheetah_mlp.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_gs/gs_halfcheetah.py" />
+        <option value="$PROJECT_DIR$/result/papaer2_cartpole.py" />
+        <option value="$PROJECT_DIR$/result/SGD_with-t/vpg_cartpole.py" />
+        <option value="$PROJECT_DIR$/examples/tf/capg_swimmer.py" />
+        <option value="$PROJECT_DIR$/examples/theano/capg_walker2d.py" />
+        <option value="$PROJECT_DIR$/garage/tf/optimizers/__init__.py" />
+        <option value="$PROJECT_DIR$/result/HAPG_paper/papaer2_hopper.py" />
+        <option value="$PROJECT_DIR$/Exp_paper/HAPG_paper/example_swimmer.py" />
+        <option value="$PROJECT_DIR$/Exp_paper/REINFORCE/example_swimmer.py" />
+        <option value="$PROJECT_DIR$/garage/theano/algos/capg.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="1210" />
+    <option name="height" value="789" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HAPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HAPG" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="snapshot_mode&#9;null&#9;null" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/garage/theano/algos/capg_corrected.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/result/SGD_without-t" />
+      <recent name="$PROJECT_DIR$/estimator1_small_learning_rate/Humanoid" />
+      <recent name="$PROJECT_DIR$/history" />
+      <recent name="$PROJECT_DIR$/kill/Swimmer" />
+      <recent name="$PROJECT_DIR$/CAPG_dubeg" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Exp_paper/REINFORCE" />
+      <recent name="$PROJECT_DIR$/result/SGD_with-t" />
+      <recent name="$PROJECT_DIR$/result" />
+      <recent name="$PROJECT_DIR$/result/HAPG_gs" />
+      <recent name="$PROJECT_DIR$/result/SGD_without-t/Walker" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.example_swimmer">
+    <configuration name="example_swimmer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="garage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exp_paper/HAPG_paper" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exp_paper/HAPG_paper/example_swimmer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="papaer2_cartpole" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="garage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/result" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result/papaer2_cartpole.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="papaer2_humanoidstandup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="garage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/result/HAPG_paper" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result/HAPG_paper/papaer2_humanoidstandup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="vpg_cartpole" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="garage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/result/SGD_with-t" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result/SGD_with-t/vpg_cartpole.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="vpg_humanoidstandup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="garage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/result/SGD_with-t" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result/SGD_with-t/vpg_humanoidstandup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.papaer2_humanoidstandup" />
+      <item itemvalue="Python.vpg_humanoidstandup" />
+      <item itemvalue="Python.papaer2_cartpole" />
+      <item itemvalue="Python.vpg_cartpole" />
+      <item itemvalue="Python.example_swimmer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.example_swimmer" />
+        <item itemvalue="Python.vpg_cartpole" />
+        <item itemvalue="Python.papaer2_cartpole" />
+        <item itemvalue="Python.vpg_humanoidstandup" />
+        <item itemvalue="Python.papaer2_humanoidstandup" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe6ee05f-8906-48b8-bdd2-3467b9ca5c1d" name="Default Changelist" comment="" />
+      <created>1543212009712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543212009712</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="2560" height="1415" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49939394" visible="true" weight="0.19826567" />
+      <window_info id="Structure" order="1" sideWeight="0.50079364" side_tool="true" weight="0.18092234" />
+      <window_info id="Favorites" order="2" sideWeight="0.50060606" side_tool="true" weight="0.18092234" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49973643" weight="0.3484127" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936507" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936507" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32857144" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002636" side_tool="true" weight="0.43888888" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.48095238" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49939394" visible="true" weight="0.19826567" />
+      <window_info id="Structure" order="1" sideWeight="0.50079364" side_tool="true" weight="0.18092234" />
+      <window_info id="Favorites" order="2" sideWeight="0.50060606" side_tool="true" weight="0.18092234" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3288889" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49973643" visible="true" weight="0.3484127" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936507" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936507" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32857144" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002636" side_tool="true" weight="0.43888888" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.48095238" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/garage/tf/baselines/gaussian_mlp_baseline.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CAPG_exp/VPG_cartpole.py</url>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CAPG_v2/CAPG_cp_parrallel.py</url>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CAPG_v2/CAPG_swimmer.py</url>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CAPG_v2/CAPG_cp.py</url>
+          <line>218</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CAPG_Final/CartPole/sgd_cartpole.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Exp_paper/HAPG_paper/papaer2_hopper.py</url>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>observations</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self._target</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.policy</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.po</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>g_mix</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.grad_norm(g_mix)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.grad_norm(d_vector)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>d_vector</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sub_observations</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/result/HAPG_gs/gs_swimmer.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/HAPG_paper/papaer2_humanoid.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/HAPG_paper/papaer2_reacher.py" />
+    <entry file="file://$PROJECT_DIR$/result/HAPG_gs/gs_walker.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/HAPG_paper/papaer2_walker.py" />
+    <entry file="file://$PROJECT_DIR$/result/SGD_with-t/vpg_humanoid.py" />
+    <entry file="file://$PROJECT_DIR$/result/SGD_with-t/vpg_reacher.py" />
+    <entry file="file://$PROJECT_DIR$/result/SGD_with-t/vpg_swimmer.py" />
+    <entry file="file://$PROJECT_DIR$/result/SGD_with-t/vpg_walker.py" />
+    <entry file="file://$PROJECT_DIR$/result/HAPG_paper2/papaer2_humanoidstandup.py" />
+    <entry file="file://$PROJECT_DIR$/result/HAPG_paper2/papaer2_reacher.py" />
+    <entry file="file://$PROJECT_DIR$/result/HAPG_paper2/papaer2_swimmer.py" />
+    <entry file="file://$PROJECT_DIR$/result/HAPG_paper2/papaer2_walker.py" />
+    <entry file="file://$PROJECT_DIR$/garage/envs/mujoco/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/HAPG_paper2/papaer2_humanoid.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/HAPG_paper/papaer2_hopper_mlp.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/HAPG_paper/papaer2_humanoidstandup_mlp.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/REINFORCE/vpg_humanoid_mlp.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/REINFORCE/vpg_humanoidstandup_mlp.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/REINFORCE/vpg_reacher_mlp.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/REINFORCE/vpg_swimmer_mlp.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/REINFORCE/vpg_walker_mlp.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/HAPG_paper/papaer2_reacher_mlp.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/HAPG_paper/papaer2_swimmer_mlp.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/REINFORCE/vpg_reacher.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/REINFORCE/vpg_humanoidstandup.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/REINFORCE/vpg_walker.py" />
+    <entry file="file://$PROJECT_DIR$/result/SGD_without-t/vpg_hopper.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/HAPG_paper/papaer2_humanoidstandup.py" />
+    <entry file="file://$PROJECT_DIR$/result/HAPG_gs/gs_halfcheetah.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/HAPG_paper/papaer2_walker_mlp.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/REINFORCE/vpg_hop.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/HAPG_paper/papaer2_halfcheetah.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/HAPG_paper/papaer2_halfcheetah_mlp.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/REINFORCE/vpg_halfcheetah.py" />
+    <entry file="file://$PROJECT_DIR$/result/SGD_with-t/vpg_humanoidstandup.py" />
+    <entry file="file://$PROJECT_DIR$/result/HAPG_gs/gs_humanoid.py" />
+    <entry file="file://$PROJECT_DIR$/examples/tf/trpo_cartpole.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/tf/capg_swimmer.py" />
+    <entry file="file://$PROJECT_DIR$/examples/theano/vpg_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/theano/vpg_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/SGD_with-t/vpg_cartpole.py" />
+    <entry file="file://$PROJECT_DIR$/examples/theano/capg_walker2d.py" />
+    <entry file="file://$PROJECT_DIR$/garage/tf/optimizers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/garage/tf/optimizers/svrg_optimizer.py" />
+    <entry file="file://$PROJECT_DIR$/result/papaer2_cartpole.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/HAPG_paper/papaer2_humanoid_mlp.py" />
+    <entry file="file://$PROJECT_DIR$/Exp_paper/HAPG_paper/papaer2_hopper.py" />
+    <entry file="file://$PROJECT_DIR$/garage/theano/algos/capg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#2581#5316#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exp_paper/HAPG_paper/example_swimmer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exp_paper/REINFORCE/example_swimmer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
