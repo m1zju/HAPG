@@ -1,3 +1,9 @@
+# Hessian Aided Policy Gradient
+
+This repo contains the code of the paper "Hessian Aided Policy Gradient".
+This code is based on the garage code repository thus can be installed in the same way.
+To run the experiments, examples are in `Exp_paper/`.
+
 [![Docs](https://readthedocs.org/projects/rlgarage/badge)](http://rlgarage.readthedocs.org/en/latest/)
 [![Build Status](https://travis-ci.com/rlworkgroup/garage.svg?branch=master)](https://travis-ci.com/rlworkgroup/garage)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rlworkgroup/garage/blob/master/LICENSE)
